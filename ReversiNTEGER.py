@@ -10,7 +10,7 @@ def reverse_integer(n):
     reversed_str = str(n)[::-1]
     
     if n < 0:
-        reversed_str = "-" + reversed_str[:-1]  # Exclude the '-' sign from reversal
+        reversed_str = "-" + reversed_str[:-1]  
     return int(reversed_str)
 
 # Test
